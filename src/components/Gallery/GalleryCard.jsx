@@ -3,7 +3,7 @@ import { Col, Card } from "react-bootstrap"
 export default function GalleryCard({data: {id, name, website, content, cover}}) {
     return(
        <Col key={id} md={4}>
-        <Card>
+        <Card className="gallery-card button-effect">
             <figure>
                 <a href={website}
                 target="_blank"
